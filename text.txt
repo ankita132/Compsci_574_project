@@ -1,0 +1,25 @@
+
+Epoch 0  test accuracy: 0.363590  meanIOU: 0.046436
+Epoch 1  test accuracy: 0.363823  meanIOU: 0.048390
+Epoch 2  test accuracy: 0.367694  meanIOU: 0.049532
+Epoch 3  test accuracy: 0.369483  meanIOU: 0.054936
+Epoch 4  test accuracy: 0.374561  meanIOU: 0.057832
+Epoch 5  test accuracy: 0.378981  meanIOU: 0.059952
+Epoch 6  test accuracy: 0.388126  meanIOU: 0.066541
+Epoch 7  test accuracy: 0.397463  meanIOU: 0.071123
+Epoch 8  test accuracy: 0.410442  meanIOU: 0.073189
+Epoch 9  test accuracy: 0.412455  meanIOU: 0.073534
+Epoch 10  test accuracy: 0.432198  meanIOU: 0.080013
+
+
+Epoch 0  test accuracy: 0.732690  meanIOU: 0.317600
+Epoch 1  test accuracy: 0.778093  meanIOU: 0.359370
+Epoch 2  test accuracy: 0.807851  meanIOU: 0.389451
+Epoch 3  test accuracy: 0.834216  meanIOU: 0.427869
+Epoch 4  test accuracy: 0.845312  meanIOU: 0.446753
+Epoch 5  test accuracy: 0.881280  meanIOU: 0.491245
+Epoch 6  test accuracy: 0.901234  meanIOU: 0.509856
+Epoch 7  test accuracy: 0.902348  meanIOU: 0.516781
+Epoch 8  test accuracy: 0.920896  meanIOU: 0.579876
+Epoch 9  test accuracy: 0.927628  meanIOU: 0.587643
+Epoch 10  test accuracy: 0.938096  meanIOU: 0.601231
