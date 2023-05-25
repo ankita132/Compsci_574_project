@@ -17,6 +17,6 @@
     - For example : ```model.load_state_dict(torch.load('./checkpoints/GACNet_000_0.3636.pth', map_location=torch.device('cpu')))```
 
 ### Contributions
-- Aman Bansal : Contributed to Voxel Sampling (model.py, line 101-122), created test_semseg.py for performing testing (test_semseg.py, line ```1-66```)
-- Ankita Sahoo : Contributed to the encoding of point clouds vertices in model.py using NewPointNetFeaturePropagation (model.py, line 350-366), modification of the GACNet model (model.py, line 382-398, line 400-423)
-- Vishnu Sabbavarapu : Contributed to Dilute Furthest Point Sampling (model.py, line 124-158) and changes associated with it in GACNet model (model.py, line 425-429, line 372-374), sample_and_group function (model.py, line 279), GraphAttentionConvLayer (model.py, line 176)
+- Aman Bansal : Contributed to Voxel Sampling (model.py, line ```101-122```), created test_semseg.py for performing testing (test_semseg.py, line ```1-66```)
+- Ankita Sahoo : Contributed to the encoding of point clouds vertices in model.py using NewPointNetFeaturePropagation (model.py, line ```350-366```), modification of the GACNet model (model.py, line ```382-398```, line ```400-423```)
+- Vishnu Sabbavarapu : Contributed to Dilute Furthest Point Sampling (model.py, line ```124-158```) and changes associated with it in GACNet model (model.py, line ```425-429```, line ```372-374```), sample_and_group function (model.py, line ```279```), GraphAttentionConvLayer (model.py, line ```176```)
