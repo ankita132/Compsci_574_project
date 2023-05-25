@@ -49,7 +49,7 @@ def test(model, loader):
         x = x.float().cpu()
         y = y.long().cpu()
         x = x.permute(0,2,1)
-        y_pred,_ = model(x)
+        y_pred,_ = model(x, y)
 
         _, y_pred = torch.max(y_pred, -1)
         pred_choice = y_pred.data.max(1)[1]

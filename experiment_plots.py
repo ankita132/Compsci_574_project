@@ -1,19 +1,19 @@
 import matplotlib.pyplot as plt
 
-original_accuracy = [0.317600, 0.359370, 0.389451, 0.427869, 0.446753, 0.491245, 0.509856, 0.516781, 0.579876, 0.587643]
+original_accuracy = [0.360801, 0.363590, 0.368985, 0.380376, 0.369139]
 
-new_accuracy = [0.046436, 0.048390, 0.049532, 0.054936, 0.057832, 0.059952, 0.066541, 0.071123, 0.073189, 0.073534]
+# new_accuracy = [0.046436, 0.048390, 0.049532, 0.054936, 0.057832, 0.059952, 0.066541, 0.071123, 0.073189, 0.073534]
 
-epochs = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+alpha = [0.5, 0.2, 0.1, 0.05, 0.01]
 
-plt.plot(epochs, original_accuracy, label='original model')
-plt.plot(epochs, new_accuracy, label='proposed model')
+plt.plot(alpha, original_accuracy)
+# plt.plot(epochs, new_accuracy, label='proposed model')
 
-plt.title("Mean IOU on test data on both models (10 epochs)")
-plt.xlabel("Epoch")
-plt.ylabel("mean IOU")
+plt.title("Test Accuracy vs Alpha")
+plt.xlabel("Alpha")
+plt.ylabel("Accuracy")
 
-plt.legend()
-plt.savefig('plot2.png')
+# plt.legend()
+plt.savefig('plot3.png')
 
 plt.show()
