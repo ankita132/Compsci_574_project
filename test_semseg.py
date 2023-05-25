@@ -25,7 +25,7 @@ def parse_args():
     parser.add_argument('--multi_gpu', type=str, default=None, help='whether use multi gpu training')
     parser.add_argument('--dropout', type=float, default=0, help='dropout [default: 0]')
     parser.add_argument('--alpha', type=float, default=0.2, help='alpha for leakyRelu [default: 0.2]')
-    parser.add_argument('--test_class_num', type=float, default=4, help='alpha for leakyRelu [default: 0.2]')
+    parser.add_argument('--test_class_num', type=float, default=4, help='class value for creating test dataloader [default: 4]')
     return parser.parse_args()
 
 def main(args):
